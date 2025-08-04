@@ -7,10 +7,10 @@ public class CheckoutPage {
     WebDriver driver;
 
     // Step One - Info form
-    By firstName = By.id("first-name");
-    By lastName = By.id("last-name");
-    By postalCode = By.id("postal-code");
-    By continueBtn = By.id("continue");
+    private  By firstName = By.id("first-name");
+    private  By lastName = By.id("last-name");
+    private  By postalCode = By.id("postal-code");
+    private  By continueBtn = By.id("continue");
 
     // Step Two - Overview & finish
     By finishBtn = By.id("finish");
