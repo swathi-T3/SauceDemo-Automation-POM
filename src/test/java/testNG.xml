@@ -1,0 +1,70 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Login Test Suite">
+
+    <!--  Example: Run only 'positive' group -->
+    <!--
+    <test name="Positive Login Tests">
+        <groups>
+            <run>
+                <include name="positive"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+    -->
+
+    <!-- Example: Run only 'invalidCreds' group -->
+    <!--
+    <test name="Invalid Credentials Tests">
+        <groups>
+            <run>
+                <include name="invalidCreds"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+    -->
+
+    <!-- Example: Run only 'inputValidation' group -->
+    <!--
+    <test name="Input Validation Tests">
+        <groups>
+            <run>
+                <include name="inputValidation"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+    -->
+
+    <!-- Example: Run only 'security' group -->
+    <!--
+    <test name="Security Edge Case Tests">
+        <groups>
+            <run>
+                <include name="security"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+    -->
+
+    <!--  Default: Run all test cases in LoginTest -->
+    <test name="All Login Tests">
+        <classes>
+            <class name="Tests.LoginTest"/>
+            <class name="Tests.InventoryTest"/>
+            <class name="Tests.CartTest"/>
+            <class name="Tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>

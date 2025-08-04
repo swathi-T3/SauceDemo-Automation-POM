@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemo Login Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="All Login Tests(failed)">
+    <classes>
+      <class name="Tests.InventoryTest">
+        <methods>
+          <include name="addItemThenVerifyButtonText"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Tests.InventoryTest -->
+    </classes>
+  </test> <!-- All Login Tests(failed) -->
+</suite> <!-- Failed suite [SauceDemo Login Test Suite] -->
